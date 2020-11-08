@@ -20,7 +20,11 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "typeface-luckiest-guy": "^1.1.13",
+    "typeface-monoton": "^1.1.13",
+    "typeface-palanquin-dark": "^1.1.13",
+    "typeface-suez-one": "^1.1.13"
   },
   "devDependencies": {
     "prettier": "2.1.2"

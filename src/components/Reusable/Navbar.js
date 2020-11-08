@@ -41,19 +41,23 @@ export default class Navbar extends Component {
 
     render() {
         return (
-           <nav className="navbar navbar-expand-sm bg-theme text-white navbar-fixed-top">
+           <nav className="navbar sticky-top navbar-expand-lg bg-theme navbar-dark">
                 <Link to="/" className="navbar-brand ml-5">
                     <img src={logo} alt="brand logo" width = "80px"/>
                 </Link>
-                <button
-                className="navbar-toggler" type="button" onClick={this.myToggler}>
-                <span className="text-white">Menu</span></button>
+
+                <button className="navbar-toggler" type="button" onClick={this.myToggler}
+                data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                 aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+                
                 <div className={this.state.navbarClass}>
                     <ul className="navbar-nav ml-auto mr-5">
                     {this.state.menus.map(menu => {
                         return (
-                            <li key={menu.id}className="nav-item">
-                            <Link to={menu.url} className="nav-link text-light">
+                            <li key={menu.id}className="nav-item active">
+                            <Link to={menu.url} className="nav-link  text-dark">
                                 {menu.text}
                             </Link>
                         </li>

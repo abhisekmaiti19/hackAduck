@@ -1,6 +1,8 @@
-/* .{
+.navbar-nav{
 
-} */
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: bold;
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; 
@@ -21,11 +23,12 @@ html {
   background-image: linear-gradient(to left, #f09c0b, #ff6e32, #ff1b68, #ff00ad, #e505fa);
 }
 .hero-background {
-  min-height: 50px;
+  min-height: 60vh;
+  
   display: flex;
-  justify-content: center;
-  align-items:  center;
-  flex-direction: column;
+   justify-content: center;
+   align-items:  center; 
+   flex-direction: row; 
 }
 /* .team-card{
   width: 18rem;

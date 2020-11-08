@@ -1,0 +1,42 @@
+/* .{
+
+} */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
+  font: 112.5%/1.45em georgia, serif, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.bg-theme{
+  background-image: linear-gradient(to left, #f09c0b, #ff9e80, #ffbad1, #ffe0fd, #ffffff);
+}
+  .cart-icon
+{
+  font-size: 1.5rem;
+}
+.bgfoot{
+
+  background-image: linear-gradient(to left, #f09c0b, #ff6e32, #ff1b68, #ff00ad, #e505fa);
+}
+.hero-background {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
+/* .team-card{
+  width: 18rem;
+} */
+.about-background {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
+.btn-mystyle{
+  background-image: linear-gradient(to right top, #9000ff, #e100bf, #ff007e, #ff0044, #ee0606);
+}

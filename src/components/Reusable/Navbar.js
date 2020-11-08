@@ -47,7 +47,7 @@ export default class Navbar extends Component {
                 </Link>
                 <button
                 className="navbar-toggler" type="button" onClick={this.myToggler}>
-                <span className="text-white">menu</span></button>
+                <span className="text-white">Menu</span></button>
                 <div className={this.state.navbarClass}>
                     <ul className="navbar-nav ml-auto mr-5">
                     {this.state.menus.map(menu => {

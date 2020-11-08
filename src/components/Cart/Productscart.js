@@ -2,12 +2,43 @@ import React, { Component } from 'react'
 import Heading from'../Reusable/Heading'
 import Img from 'gatsby-image'
 
+
+const getCaty = items =>{
+    let holdItem = items.map(items => {
+        return items.node.category
+    })
+
+    let holdCategories = new Set(holdItem)
+    let categories = Array.from(holdCategories)
+    categories = ["all", ...categories]
+    return categories
+}
+
 export default class Productscart extends Component {
     constructor(props){
         super(props)
         this.state= {
             myproducts: props.myproducts.edges,
-            products: props.myproducts.edges
+            products: props.myproducts.edges,
+            
+            mycategories: getCaty(props.myproducts.edges)
+        }
+    }
+
+    catyClicked = category => {
+
+        let keepItsafe = [...this.state.products]
+        
+
+        if(category === 'all'){
+            this.setState(()=> {
+                return {myproducts: keepItsafe}
+            })
+        } else {
+            let holdproduct = keepItsafe.filter(({node})=> node.category === category)
+            this.setState(( )=>{
+                return {myproducts: holdproduct}
+            })
         }
     }
     render() {
@@ -16,6 +47,26 @@ export default class Productscart extends Component {
             <section className="py-5">
             <div className="container">
             <Heading title="Our Products"/>
+            <div className="row my-3">
+            <div className="col-10 mx-auto text-center">
+            {
+                this.state.mycategories.map((category, index)=>{
+                    return (
+                        <button
+                        type="button"
+                        className="btn btn-dark m-1 px-2 "
+                        key={index}
+                        onClick={()=>{
+                            this.catyClicked(category)
+                        }}
+                        >
+                        {category}
+                        </button>
+                    )
+                })
+            }
+            </div>
+            </div>
             <div className="row">
             {
                 this.state.myproducts.map(({ node })=>{

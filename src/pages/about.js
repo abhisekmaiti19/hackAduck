@@ -13,7 +13,7 @@ import Teamphotosection from '../components/About/Teamphotosection'
 
 const AboutPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About Us" />
    <HeroSection 
    img={data.img.childImageSharp.fluid}
    

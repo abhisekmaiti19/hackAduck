@@ -6,23 +6,24 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from '../components/Reusable/HeroSection'
 import Infoblock from '../components/Reusable/Infoblock'
-import DualInfoblock from '../components/Reusable/DualInfoblock'
-import Teamphotosection from '../components/About/Teamphotosection'
+import Contact from '..//components/Contact/Contact'
+
 
 
 
 const ContactPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Contact Us" />
    <HeroSection 
    img={data.img.childImageSharp.fluid}
    
    subtitle=""
    heroclass="about-background"
    />
-   <DualInfoblock heading="Massage from Developer"/>
-   <Infoblock heading="About our vision"/> 
-   <Teamphotosection/>
+ 
+   <Infoblock heading="How can we help"/> 
+   <Contact/>
+  
   
 
   </Layout>
@@ -30,7 +31,7 @@ const ContactPage = ({data}) => (
 
 export const query = graphql`
 {
-  img: file(relativePath: {eq:"6.png"})
+  img: file(relativePath: {eq:"1.png"})
   {
     childImageSharp {
       fluid {

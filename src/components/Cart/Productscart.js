@@ -34,7 +34,7 @@ export default class Productscart extends Component {
                         data-item-name={node.title}
                         data-item-price={node.price}
                         
-                        data-item-url="https://techkydevs.com"
+                        data-item-url="https://quickstore-tdevs.netlify.app/"
                         data-item-image={node.image.fixed.src}
                         className="btn btn-warning snipcart-add-item">Buy Now</button>
                         </div>

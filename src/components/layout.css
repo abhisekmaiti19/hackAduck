@@ -23,12 +23,11 @@ html {
   background-image: linear-gradient(to left, #f09c0b, #ff6e32, #ff1b68, #ff00ad, #e505fa);
 }
 .hero-background {
-  min-height: 60vh;
-  
+  min-height: 90vh;
   display: flex;
-   justify-content: center;
-   align-items:  center; 
-   flex-direction: row; 
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
 }
 /* .team-card{
   width: 18rem;
@@ -42,4 +41,16 @@ html {
 }
 .btn-mystyle{
   background-image: linear-gradient(to right top, #9000ff, #e100bf, #ff007e, #ff0044, #ee0606);
+}
+
+@media all and (max-width: 600px){
+
+  .hero-background {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+  }
+
 }

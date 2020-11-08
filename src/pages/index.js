@@ -14,11 +14,12 @@ import Products from '../components/Cart/Productscart'
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
+    <div className="container-fluid">
    <HeroSection 
    img={data.img.childImageSharp.fluid}
-   
-   heroclass="hero-background"
-   />
+   heroclass="hero-background"/>
+
+   </div>
   <Products myproducts={data.myproducts}/>
    <Infoblock heading="About Us"/> 
   <DualInfoblock heading="Our Team"/>

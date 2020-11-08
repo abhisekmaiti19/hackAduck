@@ -11,7 +11,7 @@ import Teamphotosection from '../components/About/Teamphotosection'
 
 
 
-const AboutPage = ({data}) => (
+const ContactPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
    <HeroSection 
@@ -30,7 +30,7 @@ const AboutPage = ({data}) => (
 
 export const query = graphql`
 {
-  img: file(relativePath: {eq:"5.png"})
+  img: file(relativePath: {eq:"6.png"})
   {
     childImageSharp {
       fluid {
@@ -41,4 +41,4 @@ export const query = graphql`
 }
 `
 
-export default AboutPage
+export default ContactPage

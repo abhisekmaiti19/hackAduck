@@ -21,15 +21,15 @@ const IndexPage = ({data}) => (
    </div>
    
   <Products myproducts={data.myproducts}/>
-   <Infoblock heading="About Us"/> 
-  <DualInfoblock heading="Our Team"/>
+   
+  <DualInfoblock heading="About Us"/>
 
   </Layout>
 )
 
 export const query = graphql`
 {
-  img: file(relativePath: {eq:"7.png"})
+  img: file(relativePath: {eq:"2.png"})
   {
     childImageSharp {
       fluid {

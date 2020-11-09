@@ -22,7 +22,7 @@ const IndexPage = ({data}) => (
    
   <Products myproducts={data.myproducts}/>
    
-  <DualInfoblock heading="About Us"/>
+  <DualInfoblock heading="What is Quick Store ?"/>
 
   </Layout>
 )

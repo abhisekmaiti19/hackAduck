@@ -18,8 +18,8 @@ const IndexPage = ({data}) => (
    <HeroSection 
    img={data.img.childImageSharp.fluid}
    heroclass="hero-background"/>
-
    </div>
+   
   <Products myproducts={data.myproducts}/>
    <Infoblock heading="About Us"/> 
   <DualInfoblock heading="Our Team"/>

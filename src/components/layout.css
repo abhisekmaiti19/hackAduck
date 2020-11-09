@@ -10,7 +10,12 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
-
+.cardinfo{
+  max-width: 18rem;
+}
+p{
+  font-weight: bold;
+}
 .bg-theme{
   background-image: linear-gradient(to left, #f09c0b, #ff9e80, #ffbad1, #ffe0fd, #ffffff);
 }
@@ -23,7 +28,7 @@ html {
   background-image: linear-gradient(to left, #f09c0b, #ff6e32, #ff1b68, #ff00ad, #e505fa);
 }
 .hero-background {
-  min-height: 90vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items:  center;
@@ -43,7 +48,7 @@ html {
   background-image: linear-gradient(to right top, #9000ff, #e100bf, #ff007e, #ff0044, #ee0606);
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 1200px){
 
   .hero-background {
     min-height: 50vh;

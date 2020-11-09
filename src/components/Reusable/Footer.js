@@ -11,7 +11,7 @@ export default function Footer({superman}) {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 pt-2 text-center bgfoot text-light">
-                            <h6> ©2020 techkydevs: All Rights Reserved: develope with ❤ by Abhisek & Ayyan</h6>
+                            <h6> ©2020 Quick Store by techkydevs; All Rights Reserved: <br/> Develope with ❤ by Abhisek & Ayyan</h6>
                         </div>
                     </div>
                 </div>

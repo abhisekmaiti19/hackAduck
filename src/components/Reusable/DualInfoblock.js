@@ -9,20 +9,23 @@ export default function DualInfoblock({heading}) {
         <Heading title={heading}/>
         <div className="row">
         <div className="col-8 mx-auto">
-            <p className="lead text-white mb-5">
-                lorem 50
+            <p className="lead font-weight-bold text-dark mb-5">
+            Launched in Kolkata a month ago, Quick Store has grown from a
+             home project to one of the Hackathon. We are presently develope on more features. We not only connect people to food and their
+             essentials in
+                every context but work closely with Groccerry shops to
+                 enable a sustainable ecosystem.
             </p>
         </div>
         <div className="col-4">
             
-        <div className="card team-card">
-        <img src="https://images.pexels.com/photos/3760758/pexels-photo-3760758.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="card-img-top" alt="my product image"/>
-        <div className="card-body">
-          <h5 className="card-title">Click the photos</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link href="#" className="btn btn-primary btn-block">{heading}</Link>
-        </div>
-        </div>
+        <div className="card cardinfo" >
+  <img className="card-img-top" src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap"/>
+ 
+  
+
+</div>
+       
       </div>
 
         </div>

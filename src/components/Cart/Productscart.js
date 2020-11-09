@@ -76,7 +76,7 @@ export default class Productscart extends Component {
                         <Img fixed={node.image.fixed} />
                         <div className="flex-grow-1 px-3">
                         <div className="d-flex justify-content-between">
-                        <h6 className="mb-0">{node.title}</h6>
+                        <h6 className="mb-0 py-3">{node.title}</h6>
                         <h6 className="mb-0 text-success">₹{node.price}</h6>
                         </div>
                         

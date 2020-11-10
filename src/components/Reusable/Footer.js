@@ -40,16 +40,16 @@ export default function Footer( ) {
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-         <a href="#"> Quick Store</a>. Develope with 🤍 by <a href="https://techkydevs.com"> techkydevs </a>
+         <a href="#"> Quick Store</a>. Develope with ❤ by <a href="https://techkydevs.com"> techkydevs </a>
             </p>
           </div>
 
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
-              <li><a className="facebook" href="#"><FaFacebook/></a></li>
-              <li><a className="github" href="#"><FaGithub/></a></li>
-              <li><a className="discord" href="#"><FaDiscord/></a></li>
-              <li><a className="globe" href="#"><FaGlobe/></a></li> 
+              <li><a className="facebook" href="https://facebook.com/techkydevs"><FaFacebook/></a></li>
+              <li><a className="github" href="https://github.com/abhisekmaiti19"><FaGithub/></a></li>
+              <li><a className="discord" href="https://discord.gg/GvGED8YAbz"><FaDiscord/></a></li>
+              <li><a className="globe" href="https://techkydevs.com"><FaGlobe/></a></li> 
             </ul>
           </div>
         </div>

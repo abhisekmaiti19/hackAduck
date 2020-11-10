@@ -38,8 +38,10 @@ html {
   width: 18rem;
 } */
 .about-background {
-  min-height: 30vh;
+  min-height: 55.5vh;
+  
   display: flex;
+ 
   justify-content: center;
   align-items:  center;
   flex-direction: column;
@@ -63,6 +65,16 @@ html {
   .About-us-text
 {
   font-size: 14px ;
+}
+
+.about-background{
+
+  min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+
 }
 
 .all-title{

@@ -34,6 +34,15 @@ html {
   align-items:  center;
   flex-direction: column;
 }
+
+.wwo-background {
+  min-height: 80vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
 /* .team-card{
   width: 18rem;
 } */
@@ -51,12 +60,23 @@ html {
 }
 
 
-
+.cform{
+  margin: 0 auto;
+}
+.wwoi-background
+{
+  min-height: 80vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
 
 @media all and (max-width: 1200px){
 
   .hero-background {
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items:  center;
@@ -83,6 +103,24 @@ html {
 
 }
 
+.wwo-background {
+  min-height: 40vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
+
+.wwoi-background
+{
+  min-height: 10vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
 
 }
 

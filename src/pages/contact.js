@@ -14,7 +14,7 @@ const ContactPage = ({ data }) => (
     <HeroSection
       img={data.img.childImageSharp.fluid}
       subtitle=""
-      heroclass="wwoi-background"
+      heroclass="hero-background"
     />
 
     <div className="container">

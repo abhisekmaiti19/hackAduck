@@ -18,7 +18,7 @@ const ServicePage = ({data}) => (
     <div className="py-3">
    <HeroSection 
    img={data.img.childImageSharp.fluid}
-   heroclass="wwo-background "/>
+   heroclass="hero-background-extra"/>
    </div>
    </div>
 

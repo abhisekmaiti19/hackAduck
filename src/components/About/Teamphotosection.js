@@ -1,40 +1,163 @@
-import React from 'react'
+import React from "react"
+import Abhi from '../../images/Abhisek.jpg';
+import Ayyan from '../../images/ayyan.jpg';
 
 export default function Teamphotosection() {
-    return (
-        <div>
-          <div  className="row">
-          <div  className="col-10 col-sm-10 mx-auto">
+  return (
 
-        <div class="card-group">
-        <div class="card">
-          <img src="https://images.pexels.com/photos/3799786/pexels-photo-3799786.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3799786.jpg&fm=jpg" class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Funny</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://images.pexels.com/photos/3799786/pexels-photo-3799786.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3799786.jpg&fm=jpg" class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://images.pexels.com/photos/3799786/pexels-photo-3799786.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3799786.jpg&fm=jpg" class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
+    <section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">OUR TEAM</h5>
 
-      </div>
-      </div>
+    <div className=" row center-align" id="parrent-prof">
+
+
+      <div class="col-xs-12 col-sm-6 prof-card col-lg-6 col-md-4">
+        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p>
+                    <img
+                      class=" img-fluid"
+                      src={Abhi}
+                      alt="card image"
+                    />
+                  </p>
+                  <h4 class="card-title">Abhisek Maiti</h4>
+                  <p class="card-text">
+                    Co-Founder Techkydevs
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Abhisek Maiti</h4>
+                  <p class="card-text">
+                  CSE student looking to leverage 
+                  my passion for problem solving and algorithm design into an 
+                  engineering role that allows me to create engaging products 
+                  and user experiences.
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a
+                        class="social-icon text-xs-center"
+                        target="_blank"
+                        href="https://facebook.com/abhimaiti.official"
+                      >
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        class="social-icon text-xs-center"
+                        target="_blank"
+                        href="https://twitter.com/abhisekmaiti19"
+                      >
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                   
+                    <li class="list-inline-item">
+                      <a
+                        class="social-icon text-xs-center"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/abhisekmaiti19/"
+                      >
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    
+    
+    
+    
+      <div class="col-xs-12 col-sm-6 prof-card col-lg-6 col-md-4">
+        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p>
+                    <img
+                      class=" img-fluid"
+                      src={Ayyan}
+                      alt="card image"
+                    />
+                  </p>
+                  <h4 class="card-title">Md. Ayyan Fahim</h4>
+                  <p class="card-text">
+                    Co-Founder Techkydevs
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Abhisek Maiti</h4>
+                  <p class="card-text">
+                  CSE student looking to leverage 
+                  my passion for problem solving and algorithm design into an 
+                  engineering role that allows me to create engaging products 
+                  and user experiences.
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a
+                        class="social-icon text-xs-center"
+                        target="_blank"
+                        href="https://facebook.com/abhimaiti.official"
+                      >
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        class="social-icon text-xs-center"
+                        target="_blank"
+                        href="https://twitter.com/abhisekmaiti19"
+                      >
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                   
+                    <li class="list-inline-item">
+                      <a
+                        class="social-icon text-xs-center"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/abhisekmaiti19/"
+                      >
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </div>
+      </div>
+      </section>
+
+  )
 }

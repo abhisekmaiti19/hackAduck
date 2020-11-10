@@ -39,7 +39,7 @@ const AboutPage = ({data}) => (
    </div>
    </div>
 
-
+<Teamphotosection/>
   </Layout>
 
 

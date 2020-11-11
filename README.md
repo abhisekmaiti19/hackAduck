@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://quickstore-tdevs.netlify.app/">
-    <img alt="quick-store" src="https://quickstore-tdevs.netlify.app/static/logo-7b4cc68a63b88bfb9876ab7c99d58029.png" width="85" />
+    <img alt="quick-store" src="https://quickstore-tdevs.netlify.app/static/logo-7b4cc68a63b88bfb9876ab7c99d58029.png" width="110" />
   </a>
 </p>
 <h1 align="center">

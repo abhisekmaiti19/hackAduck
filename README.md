@@ -28,7 +28,7 @@ Quick Store has grown a Hackathon name Hack-a-duck. We are planning to develope 
 ## 🚦 Our site looks like this
 <p align="center">
   <a href="https://quickstore-tdevs.netlify.app/">
-    <img alt="quick-store" src="https://quickstore-tdevs.netlify.app/static/logo-7b4cc68a63b88bfb9876ab7c99d58029.png" />
+    <img alt="quick-store" src="https://github.com/abhisekmaiti19/hackAduck/blob/main/src/images/quick-store%20screenShots.jpeg" />
   </a>
 </p>
 

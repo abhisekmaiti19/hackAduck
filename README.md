@@ -25,6 +25,12 @@ https://quickstore-tdevs.netlify.app/
 
 Quick Store has grown a Hackathon name Hack-a-duck. We are planning to develope on more features. Our goal is not only connect people to food and their essentials in every context but work closely with Groccerry shops to enable a sustainable ecosystem.
 
+## 🚦 Our site looks like this
+<p align="center">
+  <a href="https://quickstore-tdevs.netlify.app/">
+    <img alt="quick-store" src="https://quickstore-tdevs.netlify.app/static/logo-7b4cc68a63b88bfb9876ab7c99d58029.png" />
+  </a>
+</p>
 
 
 <!-- AUTO-GENERATED-CONTENT:END -->

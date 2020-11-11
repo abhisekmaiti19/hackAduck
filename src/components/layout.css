@@ -35,6 +35,15 @@ html {
   flex-direction: column;
 }
 
+.hero-backgroundii {
+  min-height: 80vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
+
 .hero-background-extra{
 
   min-height: 80vh;
@@ -45,6 +54,7 @@ html {
   flex-direction: column;
 
 }
+
 /* .team-card{
   width: 18rem;
 } */

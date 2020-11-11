@@ -12,7 +12,7 @@ import Infoblock from '../components/Reusable/Infoblock'
 
 const ServicePage = ({data}) => (
   <Layout>
-    <SEO title="About Us" />
+    <SEO title="Services" />
     
     <div className="container-fluid">
     <div className="py-3">

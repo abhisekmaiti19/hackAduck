@@ -68,6 +68,17 @@ html {
 
 @media all and (max-width: 1200px){
 
+  .hero-backgroundii{
+      
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+
+
+  }
+
   .hero-background {
     min-height: 40vh;
     display: flex;

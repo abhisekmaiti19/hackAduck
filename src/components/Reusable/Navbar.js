@@ -14,7 +14,9 @@ export default class Navbar extends Component {
             id:1,
             text:"Home",
             url:'/',
-        },{
+        },
+        
+        ,{
             id:2,
             text:"About Us",
             url:'/about',
@@ -26,7 +28,9 @@ export default class Navbar extends Component {
             id:4,
             text:"Contact",
             url:'/contact',
-        }]
+        }
+    
+    ]
 
     }
 

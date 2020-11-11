@@ -9,7 +9,7 @@ export default function Infoblock({ heading }) {
         <Heading title={heading} />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
-            <p className="lead font-weight-bold text-dark mb-4">
+            <p className="About-us-text  text-dark  mb-3">
               At Quick Store, we build products & solutions that redefines the
               Daily Essentials ordering & delivery space in India, every single
               day. The best part? Every bit of your work at Quick Store will

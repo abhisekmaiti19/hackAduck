@@ -30,11 +30,7 @@ const IndexPage = ({data}) => (
    
   <DualInfoblock heading="What is Quick Store ?"/>
 
-  <div className="container-fluid py-3">
-   <HeroSection 
-   img={data.img2.childImageSharp.fluid}
-   heroclass="hero-backgroundii"/>
-   </div>
+ 
 
   </Layout>
 )

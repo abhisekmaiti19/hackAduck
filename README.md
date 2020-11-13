@@ -8,7 +8,7 @@
   Quick-Store by techkydevs
 </h1>
 
-This repository is for Hack-a-duck hackathon by Psyberduck and our theme is a e-commerce website having essentials and delivered through delivery agent partner during pandemic.
+This repository is for Hack-a-duck hackathon by Psyberduck and our theme is an e-commerce website having essentials and delivered through delivery agent partner during pandemic.
 
 ## 🚀 Deployment Link
 

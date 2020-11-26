@@ -40,7 +40,7 @@ export default function Footer( ) {
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-         <a href="#"> Quick Store</a>. Develope with ❤ by <a href="https://techkydevs.com"> techkydevs </a>
+         <a href="#"> Quick Store</a>. Develope with ❤ by <a href="https://abhisekmaiti19.me"> Abhisek Maiti </a>
             </p>
           </div>
 

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import {Link} from 'gatsby';
 import logo from '../../images/logo.png';
 
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 
 
 export default class Navbar extends Component {
@@ -47,9 +49,11 @@ export default class Navbar extends Component {
     render() {
         return (
            <nav className="navbar sticky-top navbar-expand-lg bg-theme navbar-dark">
+           <AniLink paintDrip to="/">
                 <Link to="/" className="navbar-brand ml-5">
                     <img src={logo} alt="brand logo" width = "80px"/>
                 </Link>
+                </AniLink>
 
                 <button className="navbar-toggler" type="button" onClick={this.myToggler}
                 data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

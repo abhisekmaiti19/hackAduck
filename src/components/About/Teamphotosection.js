@@ -8,7 +8,7 @@ export default function Teamphotosection() {
         <h5 class="section-title h1">OUR TEAM</h5>
 
         <div className=" row center-align" id="parrent-prof">
-          <div class="col-xs-12 col-sm-6 prof-card col-lg-6 col-md-4">
+          <div class="col-xs-12 col-sm-12 prof-card col-lg-12 col-md-12">
             <div
               class="image-flip"
               ontouchstart="this.classList.toggle('hover');"
@@ -21,7 +21,7 @@ export default function Teamphotosection() {
                         <img class=" img-fluid" src={Abhi} alt="card image" />
                       </p>
                       <h4 class="card-title">Abhisek Maiti</h4>
-                      <p class="card-text">Co-Founder Techkydevs</p>
+                      <p class="card-text">Full Stack Web Developer</p>
                       <a href="#" class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a>

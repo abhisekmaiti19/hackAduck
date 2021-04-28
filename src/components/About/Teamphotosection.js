@@ -1,6 +1,5 @@
 import React from "react"
 import Abhi from "../../images/Abhisek.jpg"
-import Ayyan from "../../images/ayyan.jpg"
 
 export default function Teamphotosection() {
   return (

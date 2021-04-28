@@ -18,7 +18,6 @@ https://quickstore-tdevs.netlify.app/
 
 1.  **Abhisek Maiti.**
    
-2.  **Md. Ayyan Fahim**
 
 
 ## 🏁 About quick-store

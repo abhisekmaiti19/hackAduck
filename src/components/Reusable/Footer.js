@@ -66,7 +66,10 @@ export default function Footer() {
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
               <li>
-                <a className="facebook" href="https://facebook.com/techkydevs">
+                <a
+                  className="facebook"
+                  href="https://facebook.com/abhimaiti.official"
+                >
                   <FaFacebook />
                 </a>
               </li>
@@ -76,12 +79,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="discord" href="https://discord.gg/GvGED8YAbz">
+                <a className="discord" href="https://discord.gg">
                   <FaDiscord />
                 </a>
               </li>
               <li>
-                <a className="globe" href="https://techkydevs.com">
+                <a className="globe" href="https://abhisekmaiti19.me">
                   <FaGlobe />
                 </a>
               </li>
